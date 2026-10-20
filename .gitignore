@@ -1,0 +1,21 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and local data -- the SQLite DB can hold users' Nightscout URLs
+# and access tokens in plain text.
+.env
+*.db
+
+# Fly.io deployment config and scripts -- kept local only
+fly/
+
+# Local reference images
+graph.png
+rolling_averages.png
+TIR.jpeg
+tir.jpeg
+
+.DS_Store
